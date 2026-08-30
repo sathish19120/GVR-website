@@ -122,7 +122,7 @@ export default function App() {
           </div>
 
           <div style={{ position:'relative', zIndex:3, display:'grid',gridTemplateColumns:'repeat(4,1fr)',gap:10, padding:'0 32px 24px' }}>
-            {[{label:'Branches',value:'6',icon:'🏪'},{label:'Products',value:'4',icon:'🌾'},{label:'Cities',value:'6',icon:'📍'},{label:'Founded',value:'2026',icon:'📅'}].map(s=>(
+            {[{label:'Branches',value:'6',icon:'🏪'},{label:'Products',value:'4',icon:'🌾'},{label:'Cities',value:'6',icon:'📍'},{label:'Founded',value:'2014',icon:'📅'}].map(s=>(
               <div key={s.label} style={{ background:'rgba(255,255,255,0.1)',borderRadius:12,padding:'12px',textAlign:'center',border:'1px solid rgba(255,255,255,0.15)' }}>
                 <p style={{ margin:'0 0 4px',fontSize:16 }}>{s.icon}</p>
                 <p style={{ margin:'0 0 2px',fontSize:20,fontWeight:800,color:G.white }}>{s.value}</p>
