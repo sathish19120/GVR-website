@@ -248,7 +248,7 @@ export default function App() {
             Create Account & Order →
           </a>
           <div style={{ display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(160px,1fr))',gap:10 }}>
-            {[{icon:'📧',label:'Email',value:'admin@greenvillagerice.in'},{icon:'📍',label:'HQ',value:'Hyderabad, Telangana'},{icon:'🌐',label:'Serving',value:'6 Cities'},{icon:'📅',label:'Est.',value:'2026 · FSSAI Licensed'}].map(c=>(
+            {[{icon:'📧',label:'Email',value:'admin@greenvillagerice.in'},{icon:'📍',label:'HQ',value:'Hyderabad, Telangana'},{icon:'🌐',label:'Serving',value:'6 Cities'},{icon:'📅',label:'Est.',value:'2014 · FSSAI Licensed'}].map(c=>(
               <div key={c.label} style={{ background:'rgba(255,255,255,0.12)',borderRadius:10,padding:'10px 12px' }}>
                 <p style={{ margin:'0 0 3px',fontSize:15 }}>{c.icon}</p>
                 <p style={{ margin:'0 0 1px',fontSize:10,color:'rgba(255,255,255,0.6)' }}>{c.label}</p>
